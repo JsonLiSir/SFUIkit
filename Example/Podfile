@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SFUIKit_Example' do
+  pod 'SFUIKit', :path => '../'
+
+  target 'SFUIKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
