@@ -1,0 +1,7 @@
+source 'https://gitee.com/aistarfish/SFPodSpec.git'
+
+target 'SFCategoryDemo' do
+  pod 'SFCategory'
+#  pod 'SFCategory', '1.0.0'
+  
+end

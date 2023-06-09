@@ -1,0 +1,6 @@
+framework module SFUIKit {
+  umbrella header "SFUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
